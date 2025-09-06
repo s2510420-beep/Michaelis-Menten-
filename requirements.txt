@@ -91,4 +91,3 @@ vote_df = pd.DataFrame(list(vote_counts.items()), columns=['달리기 코스', '
 st.bar_chart(vote_df.set_index('달리기 코스'))
 
 st.write("다른 친구들은 어떤 코스를 가장 신기하게 생각하는지 바로바로 볼 수 있어요!")
- 볼 수 있어요!")
